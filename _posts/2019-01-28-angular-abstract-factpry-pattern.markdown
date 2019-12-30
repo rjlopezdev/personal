@@ -3,6 +3,7 @@ layout: post
 title:  "Angular Tips | Combine Abstract Factory Pattern & Injector to inject a service depends on parameter 👷 📐"
 date:   2019-01-28 19:39:05 +0100
 categories: angular software injector pattern architecture
+thumbnail: "https://miro.medium.com/max/2050/1*29aT2IueecGIskkY0UPIIw.png"
 ---
 
 ![Header image](https://miro.medium.com/max/2050/1*29aT2IueecGIskkY0UPIIw.png)
@@ -149,3 +150,5 @@ Please __consider not applying this method when it is not strictly necessary__ a
 # Conclusions
 
 We have seen how to apply the _AbstractFactory pattern_ in combination with the Angular Injectors, which can resolve the coding of bad smells when you need to __inject a service depending on a parameter instance of inject all of them__.
+
+# [Example](https://stackblitz.com/edit/rjlopezdev-injector?embed=1&file=src/app/app.component.ts){:target="_blank"}
